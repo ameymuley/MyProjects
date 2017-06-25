@@ -1,17 +1,22 @@
 package com.ameym.dto;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 public class AppUser {
 	
 	@Id
-	int id;
-	String name;
-	int age;
-	String address;
-	float Salary;
+	@GenericGenerator(name="generator", strategy="increment")
+	@GeneratedValue(generator="generator")
+	private int id;
+	private String name;
+	private int age;
+	private String address;
+	private float Salary;
 	
 	
 	public int getId() {

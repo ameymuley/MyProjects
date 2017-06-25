@@ -12,7 +12,6 @@ public class HibernateTest {
 	public static void main(String[] args) {
 		
 		AppUser user = new AppUser();
-		user.setId(1001);
 		user.setName("Simranjeet Singh");
 		user.setAge(25);
 		user.setAddress("Ashok Nagar, Nagpur");

@@ -10,8 +10,9 @@
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">Ameya123</property>
         
+        <property name="hibernate.default_schema">eproj</property>
         <property name="connection_pool_size">1</property>
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
         <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
         
