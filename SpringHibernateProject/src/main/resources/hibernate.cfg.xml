@@ -16,6 +16,6 @@
         <property name="show_sql">true</property>
         <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
         
-        <mapping class="com.ameym.dto.AppUser"></mapping>
+        <mapping class="com.ameym.dto.Application_User"></mapping>
     </session-factory>
 </hibernate-configuration>
